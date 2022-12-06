@@ -1,0 +1,29 @@
+body > span {
+    color: blue;
+}
+span.green,
+li .green {
+    color: green;
+}
+
+#my_body {
+    background: orangered;
+}
+
+li:hover {
+    border: 5px solid red;
+}
+
+
+tr:hover:not(:first-child) {
+    background:orangered;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td:hover {
+    background: yellow;
+    cursor: pointer;
+}
